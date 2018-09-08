@@ -13,9 +13,9 @@ call textobj#user#plugin('lua', {
       \   'select-i-function': 'textobj#lua#i_block',
       \ },
       \ 'condition': {
-      \   'select-a': 'ac',
+      \   'select-a': 'aa',
       \   'select-a-function': 'textobj#lua#a_cond',
-      \   'select-i': 'ic',
+      \   'select-i': 'ia',
       \   'select-i-function': 'textobj#lua#i_cond',
       \ },
 \ })
