@@ -12,12 +12,6 @@ call textobj#user#plugin('lua', {
       \   'select-i': 'il',
       \   'select-i-function': 'textobj#lua#i_block',
       \ },
-      \ 'function': {
-      \   'select-a': 'af',
-      \   'select-a-function': 'textobj#lua#a_func',
-      \   'select-i': 'if',
-      \   'select-i-function': 'textobj#lua#i_func',
-      \ },
       \ 'condition': {
       \   'select-a': 'ac',
       \   'select-a-function': 'textobj#lua#a_cond',
