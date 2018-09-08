@@ -12,10 +12,4 @@ call textobj#user#plugin('lua', {
       \   'select-i': 'il',
       \   'select-i-function': 'textobj#lua#i_block',
       \ },
-      \ 'condition': {
-      \   'select-a': 'aa',
-      \   'select-a-function': 'textobj#lua#a_cond',
-      \   'select-i': 'ia',
-      \   'select-i-function': 'textobj#lua#i_cond',
-      \ },
 \ })
