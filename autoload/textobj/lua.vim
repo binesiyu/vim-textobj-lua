@@ -1,7 +1,7 @@
 let s:lua_text_bound_path = expand('<sfile>:p:h')
 
 function! textobj#lua#block(is_include, obj_type) abort
-python << EOF
+python3 << EOF
 import sys
 import vim
 plugin_path = vim.eval('s:lua_text_bound_path')

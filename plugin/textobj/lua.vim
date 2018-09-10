@@ -1,4 +1,4 @@
-if !has('python')
+if !(has('python') || has('python3'))
     echo "Error: vim-textobj-lua requires vim compiled with python support"
     finish
 endif
