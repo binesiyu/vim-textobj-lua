@@ -101,7 +101,7 @@ def find_start_bound_per_line(line, obj_type, in_block_comment=False, level=1):
     # we need to iterate from right to left
     start_it = reversed([match for match in block_start.finditer(line)])
     end_it = reversed([match for match in block_end.finditer(line)])
-    for pair in itertools.izip_longest(start_it, end_it):
+    for pair in itertools.zip_longest(start_it, end_it):
         start_found, end_found = pair
         if not start_found:
             level += 1
@@ -183,7 +183,7 @@ def find_end_bound_per_line(line, obj_type, in_block_comment=False,
 
     start_it = block_start.finditer(line)
     end_it = block_end.finditer(line)
-    for pair in itertools.izip_longest(start_it, end_it):
+    for pair in itertools.zip_longest(start_it, end_it):
         start_found, end_found = pair
         if not start_found:
             level -= 1

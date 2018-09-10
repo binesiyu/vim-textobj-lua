@@ -7,9 +7,9 @@ let g:textobj_lua_no_default_key_mappings = 1
 
 call textobj#user#plugin('lua', {
       \ 'block': {
-      \   'select-a': 'al',
+      \   'select-a': 'aj',
       \   'select-a-function': 'textobj#lua#a_block',
-      \   'select-i': 'il',
+      \   'select-i': 'ij',
       \   'select-i-function': 'textobj#lua#i_block',
       \ },
 \ })
